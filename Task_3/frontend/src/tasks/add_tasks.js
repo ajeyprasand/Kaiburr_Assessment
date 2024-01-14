@@ -33,7 +33,7 @@ export default function AddTasks(){
       }else{
       await axios.post("http://localhost:8080/add_task",formData);
       toast.success(`Task with id ${formData.id} added successfully!`);
-      navigate("/");
+      navigate("/add_task");
       }
     }
   };
