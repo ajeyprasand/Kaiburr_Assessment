@@ -30,6 +30,7 @@
 <img width="817" alt="Screenshot 2024-01-14 214100" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/ad0757c7-955f-4793-b187-7f947ee10c0c">
             4.Neural Network
 <img width="819" alt="Screenshot 2024-01-14 214050" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/e76879c0-22b7-40bb-9db1-736621e93b68">
+
   ### 5.Selection of Model
       -K-Crossfold validation is used as a means to test the performance of model
       -Model with highest F1 score is chosen as final model. F1 score is used since it provides a good insight on models performance by taking both precision and recall into consideration and works well with imbalanced dataset
