@@ -50,7 +50,7 @@ The TaskManager UI is designed to interact seamlessly with the TaskManager API (
   <img width="954" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/e09a0d35-7fd9-442e-aa06-b5064a91d267">
 
 ## How to run?
-1. clone the repo
+1. Clone the repo
 2. Open a JavaScript IDE and a Java IDE that supports Maven. You'll need two terminals.
 3. In the Java IDE, run the project  which will start the backend service
 4. In JS IDE navigate to frontend and run the command `npm start` which  will start the frontend development server.
