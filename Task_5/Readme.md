@@ -3,7 +3,7 @@
 ## Project Pipeline:
   ### 1.Exploratory data analysis
   ### 2.Data cleaning
-         - ** Consumer complaint narrative ** attribute which provide insight on our target attribute **Product** is chosen as feature attribute and others are dropped
+         - "Consumer complaint narrative" attribute which provide insight on our target attribute "Product" is chosen as feature attribute and others are dropped
          -Dropping Nan Values
          -Removing duplicated
          -Text Preprocessing
