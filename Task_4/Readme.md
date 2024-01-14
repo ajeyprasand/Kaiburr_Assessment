@@ -1,8 +1,10 @@
-#<u>Creating a Automated CI-CD pipeline using github,jekins and sonarqube</u>
-##Project Repository
+# Creating a Automated CI-CD pipeline using github,jekins and sonarqube
+## Project Repository
+<br>
 This CI/CD pipeline is implemented for the project hosted on GitHub. The repository link is https://github.com/ajeyprasand/Kaiburr_Assessment_Task_4/
-
-##Pipeline Overview:
+<br>
+## Pipeline Overview:
+<br>
 The CI/CD pipeline is designed to automate the build, test, and code analysis process using Jenkins, Maven, and SonarQube. The pipeline is triggered automatically on every pull request or commit to the main branch, ensuring continuous integration and delivery.
 ![1690519424989](https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/43aa75f6-abea-4630-b943-daa904cda56f)
 
