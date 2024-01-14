@@ -7,9 +7,12 @@ The CI/CD pipeline is designed to automate the build, test, and code analysis pr
 ![1690519424989](https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/43aa75f6-abea-4630-b943-daa904cda56f)
 
 ## Tools Used
-  -Jenkins: Automation server for building, testing, and deploying code.
-  -Maven: Build tool for compiling the project.
-  -SonarQube: Platform for static code analysis.
+  Jenkins: Automation server for building, testing, and deploying code.
+<br>
+  Maven: Build tool for compiling the project.
+<br>
+  SonarQube: Platform for static code analysis.
+<br>
 
 ## Pipeline Configuration
  ### 1. Jenkins Job:
@@ -19,7 +22,8 @@ The CI/CD pipeline is designed to automate the build, test, and code analysis pr
  ### 2.Build Trigger:
     -GitHub hook trigger for GITScm polling is enabled to automate builds on pull requests and commits.
 <img width="933" alt="Screenshot 2024-01-14 213146" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/94e18130-5b92-4808-92f3-b1309caf9dfb">
- >Note: Ngrok is used to expose Jenkins running on localhost.
+
+ > Note: Ngrok is used to expose Jenkins running on localhost.
 
 ## Pipeline Execution Steps
 <img width="915" alt="Screenshot 2024-01-14 213233" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/6dab4529-5732-4f75-bf66-ccc3cab5cf4a">
