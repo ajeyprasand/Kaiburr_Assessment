@@ -1,3 +1,5 @@
+![image](https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/2ea8ffb8-28fd-495b-99b6-55a8f5b1eb00)
+
 # Kaiburr Assessment Tasks
 This repository contains all the files associated with tasks 1, 3, 4, and 5 given in the Kaiburr assessment.
 
@@ -25,5 +27,3 @@ CodePipeline or any other tool of your choice.
 ## Task 5. Data Science example.
 Perform a Text Classification on consumer complaint dataset
 (https://catalog.data.gov/dataset/consumer-complaint-database) into following categories.
-
-![image](https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/2ea8ffb8-28fd-495b-99b6-55a8f5b1eb00)
