@@ -14,22 +14,22 @@
            -Note: The dataset intentionally not balanced.The imbalanced nature of the dataset is a deliberate choice to better simulate the challenges often encountered in practical application
   ### 3.Feature engineering
           -Target attribute is encoded as:
-        'Credit reporting, credit repair services, or other personal consumer reports':0,
-        'Debt collection':1,
-        'Consumer Loan':2,
-        'Mortgage':3
+            'Credit reporting, credit repair services, or other personal consumer reports':0,
+            'Debt collection':1,
+            'Consumer Loan':2,
+            'Mortgage':3
           -Feature attribute is encoded using TF-IDF vectorizer algorithm
           -Dataset is split into train and testing using `train_test_split()`
   ### 4. Model Building
         - Algorithms chosen for this classification task: 
             1.SVM
-            <img width="829" alt="Screenshot 2024-01-14 214037" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/0fc337df-323b-4e52-98c9-b8c4c50e5241">
+<img width="829" alt="Screenshot 2024-01-14 214037" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/0fc337df-323b-4e52-98c9-b8c4c50e5241">
             2.Naive bayes
-            <img width="832" alt="Screenshot 2024-01-14 223259" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/a1606cac-fcb1-4b4b-9d8e-0adaa09d5b1a">
+<img width="832" alt="Screenshot 2024-01-14 223259" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/a1606cac-fcb1-4b4b-9d8e-0adaa09d5b1a">
             3.Random forest
-            <img width="817" alt="Screenshot 2024-01-14 214100" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/ad0757c7-955f-4793-b187-7f947ee10c0c">
+<img width="817" alt="Screenshot 2024-01-14 214100" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/ad0757c7-955f-4793-b187-7f947ee10c0c">
             4.Neural Network
-            <img width="819" alt="Screenshot 2024-01-14 214050" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/e76879c0-22b7-40bb-9db1-736621e93b68">
+<img width="819" alt="Screenshot 2024-01-14 214050" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/e76879c0-22b7-40bb-9db1-736621e93b68">
   ### 5.Selection of Model
       -K-Crossfold validation is used as a means to test the performance of model
       -Model with highest F1 score is chosen as final model. F1 score is used since it provides a good insight on models performance by taking both precision and recall into consideration and works well with imbalanced dataset
