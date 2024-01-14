@@ -27,6 +27,7 @@ The CI/CD pipeline is designed to automate the build, test, and code analysis pr
 
 ## Pipeline Execution Steps
 <img width="915" alt="Screenshot 2024-01-14 213233" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/6dab4529-5732-4f75-bf66-ccc3cab5cf4a">
+
 >4 stages of build => git checkout(implicit),git checkout(mentioned in jekinsfile),code compile,sonarqube code analysis
 
  ### 1.Code Compilation:
@@ -38,4 +39,7 @@ The CI/CD pipeline is designed to automate the build, test, and code analysis pr
  ### 3.Code Analysis:
     -Jenkins initiates the SonarQube analysis using the command: bat "mvn sonar:sonar -Dsonar.token=${SONAR_TOKEN} -  Dsonar.host.url=http://192.168.0.106:9099 -Dsonar.projectKey=Task_4"
 <img width="911" alt="Screenshot 2024-01-14 212920" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/3b9f8771-1829-4541-b477-f0bb8fdf96fd">
+
 >Code analysis result performed in Sonarqube by jekins
+
+## This Project is associated with Kaiburr assessment Task_4
