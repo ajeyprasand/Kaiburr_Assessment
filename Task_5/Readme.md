@@ -13,7 +13,8 @@
            -remove stopwords
            -Note: The dataset intentionally not balanced.The imbalanced nature of the dataset is a deliberate choice to better simulate the challenges often encountered in practical application
   ### 3.Feature engineering
-          -Target attribute is encoded as Credit reporting, credit repair services, or other personal consumer reports':0,
+          -Target attribute is encoded as:
+        'Credit reporting, credit repair services, or other personal consumer reports':0,
         'Debt collection':1,
         'Consumer Loan':2,
         'Mortgage':3
