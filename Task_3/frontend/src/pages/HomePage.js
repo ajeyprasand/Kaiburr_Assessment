@@ -15,33 +15,32 @@ export default function Home() {
     const LoadTaskAll=async()=>{
         const result= await axios.get("http://localhost:8080/get_task");
         setTask(result.data);
-    }
+    };
 
     const HandleSearch = () => {
-        switch (searchCriteria) {
-          case 'All':
-            LoadTaskAll();
-            setSearchInput(''); 
-            break;
-          case 'ById':
-            if (searchInput !== '') {
-              LoadTasksById();
+      if (searchCriteria === 'All') {
+        LoadTaskAll();
+        setSearchInput('');
+    } else {
+        if (searchInput.trim() === '') {
+            toast.warning('Please enter a value for search.');
+        } else {
+            switch (searchCriteria) {
+                case 'ById':
+                    LoadTasksById();
+                    break;
+                case 'ByName':
+                    LoadTasksByName();
+                    break;
+                case 'ByAssignee':
+                    LoadTasksByAssignee();
+                    break;
+                default:
+                    break;
+                }
             }
-            break;
-          case 'ByName':
-            if (searchInput !== '') {
-              LoadTasksByName();
-            }
-            break;
-          case 'ByAssignee':
-            if (searchInput !== '') {
-              LoadTasksByAssignee();
-            }
-            break;
-          default:
-            break;
         }
-      };
+    };
 
       const LoadTasksById = async () => {
         const result = await axios.get(`http://localhost:8080/get_task/${searchInput}`);
@@ -73,6 +72,7 @@ export default function Home() {
       const DeleteTask = async (id) => {
         await axios.delete(`http://localhost:8080/del_task/${id}`);
         toast.success(`Task with id ${id} was deleted successfully`)
+        setSearchCriteria('All');
         LoadTaskAll();
       }
 
@@ -106,7 +106,8 @@ export default function Home() {
                 </li> 
             </ul> 
             <input type="text" className="form-control" 
-            placeholder="Enter here" value={searchInput} onChange={(e) => setSearchInput(e.target.value)}>
+            placeholder="Enter here" value={searchInput} onChange={(e) => setSearchInput(e.target.value)}   disabled={searchCriteria === 'All'}
+            >
             </input>
             <button type="button" class="btn btn-outline-success" onClick={HandleSearch}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
