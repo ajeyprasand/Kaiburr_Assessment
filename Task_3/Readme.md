@@ -54,5 +54,5 @@ The TaskManager UI is designed to interact seamlessly with the TaskManager API (
 2. Open a JavaScript IDE and a Java IDE that supports Maven. You'll need two terminals.
 3. In the Java IDE, run the project  which will start the backend service
 4. In JS IDE navigate to frontend and run the command `npm start` which  will start the frontend development server.
-
+5. In your browser open http://localhost:3000 to access the UI
 
