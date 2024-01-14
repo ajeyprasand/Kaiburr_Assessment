@@ -38,6 +38,6 @@
   <img width="827" alt="Screenshot 2024-01-14 214139" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/c8eb4b89-9f4d-4479-b3a5-5d732d48f089">
 
 ## How to Run?
-  1.Clone this repo
-  2.Navigate to Text classifier.ipynb which is present is Task_5 directory
-  3.Run the ipyn file in anaconda or any ipynb compiler
+  1.Clone this repo <br>
+  2.Navigate to Text classifier.ipynb which is present is Task_5 directory <br>
+  3.Run the ipyn file in anaconda or any ipynb compiler 
