@@ -1,4 +1,4 @@
-# Creating a Automated CI-CD pipeline using github,jekins and sonarqube
+# Automated CI/CD Pipeline Documentation
 ## Project Repository
 This CI/CD pipeline is implemented for the project hosted on GitHub. The repository link is https://github.com/ajeyprasand/Kaiburr_Assessment_Task_4/
 
@@ -42,4 +42,4 @@ The CI/CD pipeline is designed to automate the build, test, and code analysis pr
 
 >Code analysis result performed in Sonarqube by jekins
 
-## This Project is associated with Kaiburr assessment Task_4
+This Project is associated with Kaiburr assessment Task_4
