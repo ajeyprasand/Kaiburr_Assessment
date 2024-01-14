@@ -35,3 +35,24 @@ The TaskManager UI is designed to interact seamlessly with the TaskManager API (
   <img width="956" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/4a1a7068-9c5e-4ecc-82a5-c5a72169d309">
   6.Add Task: By clicking the add task button in navbar the user is navigated to add taskpage
 
+## Add Task page
+<img width="942" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/6d3089d8-defa-4787-8685-dc12dff9b04f">
+
+## Actions which can be performed:
+  1.Submit: After populating all data, by clicking submit,the task successfully gets inserted into the database.
+  <img width="955" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/096ad665-5bc6-4054-8a77-e1c847cbfc9b">
+  2.Cancel: By clicking cancel, the user can navigate to homepage
+
+  ### Form validation
+  1. All fields are required
+  <img width="956" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/42133931-afd1-4051-8cb8-6de26e934500">
+  2. Cannot add task with already existing ID
+  <img width="954" alt="image" src="https://github.com/ajeyprasand/Kaiburr_Assessment/assets/35233664/e09a0d35-7fd9-442e-aa06-b5064a91d267">
+
+## How to run?
+1. clone the repo
+2. Open a JavaScript IDE and a Java IDE that supports Maven. You'll need two terminals.
+3. In the Java IDE, run the project  which will start the backend service
+4. In JS IDE navigate to frontend and run the command `npm start` which  will start the frontend development server.
+
+
