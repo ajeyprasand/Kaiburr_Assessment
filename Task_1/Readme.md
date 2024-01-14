@@ -1,9 +1,9 @@
 # TaskManager RestAPI
 ## Tools:
-  1.Language: jAVA
-  2.Build: Maven
-  3.Framework: Spring Framework
-  4.Backend: MongoDB
+  1.Language: Java <br>
+  2.Build: Maven <br>
+  3.Framework: Spring Framework <br>
+  4.Backend: MongoDB <br>
   5.Testing: Postman
 
 ## Functions:
